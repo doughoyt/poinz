@@ -19,7 +19,7 @@ const UserEstimationCard = ({
   revealed,
   matchingCardConfig
 }) => {
-  const estimationValueToDisplay = userHasEstimation && revealed ? matchingCardConfig.label : 'Z';
+  const estimationValueToDisplay = userHasEstimation && revealed ? matchingCardConfig.label : '?';
 
   if (isExcluded) {
     return (
